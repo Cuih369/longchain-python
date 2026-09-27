@@ -1,0 +1,18 @@
+# 仓库内统一使用 LF，避免跨平台 diff 噪音
+* text=auto eol=lf
+
+# Windows 批处理脚本保留 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行转换
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.woff2 binary
+*.db binary
+*.pkl binary
+*.pckl binary

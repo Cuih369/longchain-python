@@ -1,0 +1,52 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+env/
+.python-version
+
+# ===== 环境变量与密钥（严禁提交）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===== 运行时数据：SQLite 会话 / checkpoint =====
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.pckl
+
+# ===== LangGraph CLI 本地缓存 =====
+.langgraph_api/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# ===== Notebook（个人笔记，不纳入版本管理）=====
+*.ipynb
+.ipynb_checkpoints/
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
